@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817762621FCCA05700D25848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762611FCCA05700D25848 /* AppDelegate.swift */; };
+		817762641FCCA05700D25848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762631FCCA05700D25848 /* ViewController.swift */; };
+		817762671FCCA05700D25848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817762651FCCA05700D25848 /* Main.storyboard */; };
+		817762691FCCA05700D25848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817762681FCCA05700D25848 /* Assets.xcassets */; };
+		8177626C1FCCA05700D25848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8177626A1FCCA05700D25848 /* LaunchScreen.storyboard */; };
+		817762771FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762761FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsTests.swift */; };
+		817762821FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762811FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsUITests.swift */; };
+		817762911FCCAD4700D25848 /* GhiblFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762901FCCAD4700D25848 /* GhiblFilm.swift */; };
+		817762931FCCAEB900D25848 /* GhiblFilmAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762921FCCAEB900D25848 /* GhiblFilmAPIClient.swift */; };
+		817762951FCCAF0600D25848 /* NetWorkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762941FCCAF0600D25848 /* NetWorkHelper.swift */; };
+		817762971FCCB67000D25848 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817762961FCCB67000D25848 /* FilmDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		817762731FCCA05700D25848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817762561FCCA05700D25848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8177625D1FCCA05700D25848;
+			remoteInfo = "GetDataExericse-Studio-Ghibl-Films";
+		};
+		8177627E1FCCA05700D25848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817762561FCCA05700D25848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8177625D1FCCA05700D25848;
+			remoteInfo = "GetDataExericse-Studio-Ghibl-Films";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8177625E1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetDataExericse-Studio-Ghibl-Films.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817762611FCCA05700D25848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		817762631FCCA05700D25848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		817762661FCCA05700D25848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		817762681FCCA05700D25848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8177626B1FCCA05700D25848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8177626D1FCCA05700D25848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817762721FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GetDataExericse-Studio-Ghibl-FilmsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817762761FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataExericse_Studio_Ghibl_FilmsTests.swift; sourceTree = "<group>"; };
+		817762781FCCA05700D25848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8177627D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GetDataExericse-Studio-Ghibl-FilmsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817762811FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataExericse_Studio_Ghibl_FilmsUITests.swift; sourceTree = "<group>"; };
+		817762831FCCA05700D25848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817762901FCCAD4700D25848 /* GhiblFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhiblFilm.swift; sourceTree = "<group>"; };
+		817762921FCCAEB900D25848 /* GhiblFilmAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhiblFilmAPIClient.swift; sourceTree = "<group>"; };
+		817762941FCCAF0600D25848 /* NetWorkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkHelper.swift; sourceTree = "<group>"; };
+		817762961FCCB67000D25848 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8177625B1FCCA05700D25848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8177626F1FCCA05700D25848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8177627A1FCCA05700D25848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817762551FCCA05700D25848 = {
+			isa = PBXGroup;
+			children = (
+				817762601FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films */,
+				817762751FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests */,
+				817762801FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests */,
+				8177625F1FCCA05700D25848 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8177625F1FCCA05700D25848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8177625E1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films.app */,
+				817762721FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests.xctest */,
+				8177627D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817762601FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films */ = {
+			isa = PBXGroup;
+			children = (
+				8177628F1FCCA06400D25848 /* Supporting Files */,
+				817762631FCCA05700D25848 /* ViewController.swift */,
+				817762651FCCA05700D25848 /* Main.storyboard */,
+				817762961FCCB67000D25848 /* FilmDetailViewController.swift */,
+				817762901FCCAD4700D25848 /* GhiblFilm.swift */,
+				817762921FCCAEB900D25848 /* GhiblFilmAPIClient.swift */,
+				817762941FCCAF0600D25848 /* NetWorkHelper.swift */,
+				817762681FCCA05700D25848 /* Assets.xcassets */,
+				8177626D1FCCA05700D25848 /* Info.plist */,
+			);
+			name = "GetDataExericse-Studio-Ghibl-Films";
+			sourceTree = "<group>";
+		};
+		817762751FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				817762761FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsTests.swift */,
+				817762781FCCA05700D25848 /* Info.plist */,
+			);
+			path = "GetDataExericse-Studio-Ghibl-FilmsTests";
+			sourceTree = "<group>";
+		};
+		817762801FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				817762811FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsUITests.swift */,
+				817762831FCCA05700D25848 /* Info.plist */,
+			);
+			path = "GetDataExericse-Studio-Ghibl-FilmsUITests";
+			sourceTree = "<group>";
+		};
+		8177628F1FCCA06400D25848 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817762611FCCA05700D25848 /* AppDelegate.swift */,
+				8177626A1FCCA05700D25848 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			path = "../../GetDataExericse-Studio-Ghibl-Films/GetDataExericse-Studio-Ghibl-Films/Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8177625D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817762861FCCA05700D25848 /* Build configuration list for PBXNativeTarget "GetDataExericse-Studio-Ghibl-Films" */;
+			buildPhases = (
+				8177625A1FCCA05700D25848 /* Sources */,
+				8177625B1FCCA05700D25848 /* Frameworks */,
+				8177625C1FCCA05700D25848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GetDataExericse-Studio-Ghibl-Films";
+			productName = "GetDataExericse-Studio-Ghibl-Films";
+			productReference = 8177625E1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films.app */;
+			productType = "com.apple.product-type.application";
+		};
+		817762711FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817762891FCCA05700D25848 /* Build configuration list for PBXNativeTarget "GetDataExericse-Studio-Ghibl-FilmsTests" */;
+			buildPhases = (
+				8177626E1FCCA05700D25848 /* Sources */,
+				8177626F1FCCA05700D25848 /* Frameworks */,
+				817762701FCCA05700D25848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817762741FCCA05700D25848 /* PBXTargetDependency */,
+			);
+			name = "GetDataExericse-Studio-Ghibl-FilmsTests";
+			productName = "GetDataExericse-Studio-Ghibl-FilmsTests";
+			productReference = 817762721FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8177627C1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8177628C1FCCA05700D25848 /* Build configuration list for PBXNativeTarget "GetDataExericse-Studio-Ghibl-FilmsUITests" */;
+			buildPhases = (
+				817762791FCCA05700D25848 /* Sources */,
+				8177627A1FCCA05700D25848 /* Frameworks */,
+				8177627B1FCCA05700D25848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8177627F1FCCA05700D25848 /* PBXTargetDependency */,
+			);
+			name = "GetDataExericse-Studio-Ghibl-FilmsUITests";
+			productName = "GetDataExericse-Studio-Ghibl-FilmsUITests";
+			productReference = 8177627D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817762561FCCA05700D25848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					8177625D1FCCA05700D25848 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					817762711FCCA05700D25848 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8177625D1FCCA05700D25848;
+					};
+					8177627C1FCCA05700D25848 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8177625D1FCCA05700D25848;
+					};
+				};
+			};
+			buildConfigurationList = 817762591FCCA05700D25848 /* Build configuration list for PBXProject "GetDataExericse-Studio-Ghibl-Films" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817762551FCCA05700D25848;
+			productRefGroup = 8177625F1FCCA05700D25848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8177625D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films */,
+				817762711FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsTests */,
+				8177627C1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-FilmsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8177625C1FCCA05700D25848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8177626C1FCCA05700D25848 /* LaunchScreen.storyboard in Resources */,
+				817762691FCCA05700D25848 /* Assets.xcassets in Resources */,
+				817762671FCCA05700D25848 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817762701FCCA05700D25848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8177627B1FCCA05700D25848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8177625A1FCCA05700D25848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817762641FCCA05700D25848 /* ViewController.swift in Sources */,
+				817762911FCCAD4700D25848 /* GhiblFilm.swift in Sources */,
+				817762931FCCAEB900D25848 /* GhiblFilmAPIClient.swift in Sources */,
+				817762971FCCB67000D25848 /* FilmDetailViewController.swift in Sources */,
+				817762951FCCAF0600D25848 /* NetWorkHelper.swift in Sources */,
+				817762621FCCA05700D25848 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8177626E1FCCA05700D25848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817762771FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817762791FCCA05700D25848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817762821FCCA05700D25848 /* GetDataExericse_Studio_Ghibl_FilmsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817762741FCCA05700D25848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8177625D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films */;
+			targetProxy = 817762731FCCA05700D25848 /* PBXContainerItemProxy */;
+		};
+		8177627F1FCCA05700D25848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8177625D1FCCA05700D25848 /* GetDataExericse-Studio-Ghibl-Films */;
+			targetProxy = 8177627E1FCCA05700D25848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		817762651FCCA05700D25848 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817762661FCCA05700D25848 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8177626A1FCCA05700D25848 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8177626B1FCCA05700D25848 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817762841FCCA05700D25848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		817762851FCCA05700D25848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		817762871FCCA05700D25848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.nyc.GetDataExericse-Studio-Ghibl-Films";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		817762881FCCA05700D25848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.nyc.GetDataExericse-Studio-Ghibl-Films";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8177628A1FCCA05700D25848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GetDataExericse-Studio-Ghibl-FilmsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.nyc.GetDataExericse-Studio-Ghibl-FilmsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetDataExericse-Studio-Ghibl-Films.app/GetDataExericse-Studio-Ghibl-Films";
+			};
+			name = Debug;
+		};
+		8177628B1FCCA05700D25848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GetDataExericse-Studio-Ghibl-FilmsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.nyc.GetDataExericse-Studio-Ghibl-FilmsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetDataExericse-Studio-Ghibl-Films.app/GetDataExericse-Studio-Ghibl-Films";
+			};
+			name = Release;
+		};
+		8177628D1FCCA05700D25848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GetDataExericse-Studio-Ghibl-FilmsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.nyc.GetDataExericse-Studio-Ghibl-FilmsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GetDataExericse-Studio-Ghibl-Films";
+			};
+			name = Debug;
+		};
+		8177628E1FCCA05700D25848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GetDataExericse-Studio-Ghibl-FilmsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.nyc.GetDataExericse-Studio-Ghibl-FilmsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GetDataExericse-Studio-Ghibl-Films";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817762591FCCA05700D25848 /* Build configuration list for PBXProject "GetDataExericse-Studio-Ghibl-Films" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817762841FCCA05700D25848 /* Debug */,
+				817762851FCCA05700D25848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817762861FCCA05700D25848 /* Build configuration list for PBXNativeTarget "GetDataExericse-Studio-Ghibl-Films" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817762871FCCA05700D25848 /* Debug */,
+				817762881FCCA05700D25848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817762891FCCA05700D25848 /* Build configuration list for PBXNativeTarget "GetDataExericse-Studio-Ghibl-FilmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8177628A1FCCA05700D25848 /* Debug */,
+				8177628B1FCCA05700D25848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8177628C1FCCA05700D25848 /* Build configuration list for PBXNativeTarget "GetDataExericse-Studio-Ghibl-FilmsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8177628D1FCCA05700D25848 /* Debug */,
+				8177628E1FCCA05700D25848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817762561FCCA05700D25848 /* Project object */;
+}
